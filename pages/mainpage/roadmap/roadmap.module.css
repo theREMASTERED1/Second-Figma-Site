@@ -1,0 +1,169 @@
+.roadContainer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+
+.roadBox {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.mainHead {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.mainHead {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.mainHead p {
+  margin: 0px;
+}
+.mainHead img {
+  width: 25px;
+  height: fit-content;
+}
+
+.row {
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.boxTxt {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 8px;
+}
+
+.subHead {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.leftBox1 {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.leftBox2 {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.rightBox1 {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+}
+.rightBox2 {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+.imgbox img {
+  width: 80%;
+  height: fit-content;
+}
+.imgbox {
+  display: flex;
+  width: 30%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.elipse {
+  width: 90%;
+  height: fit-content;
+}
+.coffeeBox {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exsplain {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  width: 70%;
+  text-align: center;
+}
+.code {
+  font-style: normal;
+  font-weight: 700;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
+@media screen and (min-width: 500px) {
+  .roadBox {
+    width: 70%;
+  }
+  .boxTxt {
+    font-size: 10px;
+  }
+  .subHead {
+    margin-bottom: 4px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .roadBox {
+    width: 55%;
+  }
+}

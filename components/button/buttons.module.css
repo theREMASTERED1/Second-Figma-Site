@@ -1,0 +1,35 @@
+.greenButton {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 13px;
+  background: #688063;
+  border-radius: 71.5px;
+  height: 45px;
+  margin: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.whiteButton {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 13px;
+  background: white;
+  border-radius: 71.5px;
+  height: 45px;
+  margin: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+}

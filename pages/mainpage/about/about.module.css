@@ -1,0 +1,330 @@
+.mainContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Montserrat";
+}
+
+.aboutContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: white;
+}
+.about {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.aboutHead {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.aboutP {
+  width: 80%;
+}
+.aboutHead p {
+  margin: 0px;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+.headLeaf {
+  width: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+}
+.headLeaf img {
+  width: 100%;
+  height: auto;
+}
+.aboutTxt {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.aboutImg {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutImg img {
+  width: 80%;
+  height: auto;
+}
+
+.membersContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.membersBody {
+  width: 95%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.membersHead {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  flex-direction: row;
+  justify-content: center;
+}
+.membersHead p {
+  margin: 0px;
+}
+.membersHead img {
+  width: 30px;
+  height: fit-content;
+}
+.members {
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.memberBox {
+  align-items: center;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 1px 14px 40px -11px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.memberPic {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.memberPic img {
+  width: 30%;
+  height: auto;
+}
+.memberName {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  font-size: 25px;
+}
+.memberJob {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+  height: fit-content;
+  justify-content: center;
+}
+.memberInfo {
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+.memberInfo p {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  width: 70%;
+  font-weight: 300;
+  font-size: 12px;
+}
+.memberLeaf1 {
+  width: 30px;
+  align-items: baseline;
+}
+.memberLeaf1 img {
+  width: 100%;
+  height: auto;
+}
+.memberLeaf2 {
+  display: flex;
+  width: 30px;
+
+  align-items: flex-end;
+}
+.memberLeaf2 img {
+  width: 100%;
+  height: auto;
+}
+.memberSocial {
+  display: flex;
+  width: 80%;
+  height: fit-content;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.memberSocial img {
+  width: 20px;
+}
+.footContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #262626;
+  align-items: center;
+}
+.footPlant {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+}
+.footPlant img {
+  margin-left: 20px;
+  width: 20%;
+  height: auto;
+}
+
+.footTxt {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #262626;
+  margin-left: 10px;
+}
+.footer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background: #262626;
+  padding-bottom: 10px;
+}
+.footSub {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footHead {
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 700px) {
+  .about {
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .aboutTxt {
+    width: 50%;
+  }
+  .aboutHead {
+    font-size: 35px;
+  }
+  .aboutP p {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .aboutImg {
+    width: 40%;
+  }
+  .aboutImg img {
+    width: 95%;
+    margin-top: 5px;
+  }
+  .members {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .memberBox {
+    width: 31%;
+  }
+  .memberName {
+    font-size: 22px;
+  }
+  .footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .button {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  .footTxt {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .memberBox {
+    width: 29%;
+  }
+  .memberInfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
