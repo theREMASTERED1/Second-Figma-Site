@@ -1,0 +1,6 @@
+.youtube {
+  width: inherit;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,250 @@
+.tokenContain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.about {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutContent {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImg {
+  width: 30%;
+  justify-items: center;
+  display: flex;
+  align-items: center;
+}
+.aboutContent img {
+  height: 100%;
+  width: 110px;
+}
+.aboutHead {
+  width: fit-content;
+  height: fit-content;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 15px;
+
+  text-align: left;
+}
+.aboutTxt {
+  width: inherit;
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageTxt {
+  text-align: left;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+}
+.buy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.leafHead {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.leafHead p {
+  margin: 0px;
+}
+.leafHead img {
+  width: 30px;
+  height: fit-content;
+}
+.buySub {
+  width: 80%;
+  font-size: 10px;
+  text-align: center;
+}
+.buyLinks {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  width: 150px;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+.topLogo {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  display: flex;
+}
+
+.tokenomics {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.tokenGraph {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+.stats {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.graph {
+  width: fit-content;
+  height: 100%;
+  margin-right: 5px;
+}
+.graph img {
+  width: auto;
+  height: 250px;
+}
+
+.percent {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.label {
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.dotGrey {
+  width: 10px;
+  height: 10px;
+  background: #d3d3d3;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+.dotLight {
+  background: #c5edae;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+.dotGreen {
+  background: #8dce63;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+.dotDark {
+  background: #689354;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+.adress {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.adressTxt {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.adressSub {
+  width: 60%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.adressCode {
+  background: rgba(235, 235, 235, 0.5);
+  padding: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+@media screen and (min-width: 500px) {
+  .about {
+    width: 55%;
+    margin-left: 30px;
+  }
+  .tokenGraph {
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .about {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .about {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .about {
+    width: 30%;
+  }
+}

@@ -1,0 +1,202 @@
+.mainContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 0;
+}
+.learnContainer {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.details p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  width: 80%;
+}
+.mainHeading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 78px;
+  justify-content: space-between;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  color: #000000;
+}
+.mainHeading img {
+  height: 30px;
+}
+
+.leafHead {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.leafHead p {
+  margin: 0px;
+}
+.leafHead img {
+  width: 30px;
+  height: fit-content;
+}
+
+.youtube {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+}
+.pointMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  align-items: center;
+}
+
+.blogSlides {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slidesBox {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide {
+  width: 65%;
+  height: fit-content;
+  border-radius: 20px;
+  box-shadow: 1px 14px 30px 0px rgba(0, 0, 0, 0.25);
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.slide img {
+  width: 100%;
+  border-radius: inherit;
+  height: auto;
+  position: relative;
+  z-index: -1;
+  max-height: 250px;
+}
+
+.slideTxt {
+  width: 80%;
+  height: 100%;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+}
+.slideHead {
+  font-size: 17px;
+  margin-top: 70%;
+}
+.blogMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+.blogSub {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.slidesMain {
+  width: 100%;
+}
+.moreB {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  height: 150px;
+  background-image: linear-gradient(to top, rgb(68, 68, 68), white);
+}
+.moreB button {
+  height: fit-content;
+  margin-top: 90px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background: none;
+}
+.slidesBox1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+  .slide {
+    width: 55%;
+  }
+  .slideHead {
+    margin-top: 55%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .slideHead {
+    margin-top: 70%;
+  }
+  .slide {
+    width: 30%;
+  }
+  .slidesBox {
+    flex-direction: row;
+  }
+  .slidesBox1 {
+    flex-direction: row;
+  }
+  .blogSub {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .slideHead {
+    margin-top: 60%;
+  }
+  .blogSub {
+    width: 30%;
+  }
+}

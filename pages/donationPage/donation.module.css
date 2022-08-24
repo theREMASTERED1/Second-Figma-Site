@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seeds {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0%;
+}
+.seeds img {
+  width: 100%;
+  height: auto;
+}
+.txtContain {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+.txtContain p {
+  margin: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+.image {
+  width: 70%;
+  display: flex;
+  justify-content: right;
+}
+.image img {
+  width: 30px;
+  display: flex;
+  margin-right: 45px;
+
+  height: fit-content;
+}
+.memberSocial {
+  display: flex;
+  width: 80%;
+  height: fit-content;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.memberSocial img {
+  width: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .txtContain {
+    width: 40%;
+  }
+  .head {
+    width: 90%;
+  }
+}

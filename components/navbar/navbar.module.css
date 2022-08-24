@@ -2,10 +2,8 @@
   width: 100%;
   height: fit-content;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  margin-top: 10px;
+  flex-direction: row;
+  justify-content: right;
 }
 .mainNav {
   width: 100%;
@@ -14,11 +12,13 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 .button {
   width: 100%;
   justify-content: center;
   display: flex;
+  margin-top: 30px;
 }
 .button1 {
   width: 70%;
@@ -44,8 +44,10 @@
 }
 
 .burgerList {
-  width: 100%;
-  height: fit-content;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
 }
 .navLinks {
   display: none;
@@ -53,37 +55,32 @@
 
 .navLinks1 {
   width: 100%;
-  height: fit-content;
-  background-color: rgb(182, 182, 182, 0.8);
+  height: 100vh;
+  background-color: rgb(182, 182, 182, 0.95);
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
 
   position: absolute;
   z-index: 10;
-}
-.navLinksItems {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  justify-content: space-around;
-  margin-bottom: 5px;
-}
-.navLinksItems a {
-  background-color: rgb(54, 54, 54);
-  border-radius: 10px;
-  box-shadow: 6px 6px 5px rgb(54, 54, 54, 0.9);
 
-  padding: 10px;
+}
+
+.navLinks1 a {
+  margin-top: 30px;
+
   text-decoration: none;
-  width: 30%;
+  width: 60%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  color: white;
+  margin-left: 30px;
+  color: black;
+}
+.navLinks1 hr {
+  width: 70%;
+  border: 1px solid black;
 }
 
 @media screen and (min-width: 700px) {
